@@ -142,16 +142,33 @@ The `.gitignore` file excludes:
 
 ## Requirements
 
-See `requirements.txt` for complete dependencies:
+All Python dependencies are listed in `requirements.txt`. Install them with:
 
-- langchain
-- langchain-ollama
-- langchain-community
-- vosk
-- pyttsx3
-- sounddevice
-- numpy
-- scipy
+```bash
+pip install -r requirements.txt
+```
+
+### Core Packages
+
+- **langchain**: LLM orchestration framework
+- **langchain-ollama**: Ollama integration for LangChain
+- **langchain-community**: Community integrations
+- **langchain-core**: Core LangChain utilities
+
+### Audio & Speech
+
+- **vosk**: Offline speech recognition
+- **sounddevice**: Audio input/output
+- **pyttsx3**: Text-to-speech conversion
+
+### Data Processing
+
+- **numpy**: Numerical computing
+- **scipy**: Scientific computing (speaker distance calculation)
+
+### Utilities
+
+- **requests**: HTTP library
 
 ## Author
 
@@ -159,4 +176,4 @@ Created by Sruthindev
 
 ## License
 
-[Specify your license here]
+MIT License - See LICENSE file for details
