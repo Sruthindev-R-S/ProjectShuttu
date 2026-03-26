@@ -1,0 +1,21 @@
+# Core Dependencies
+langchain==0.1.20
+langchain-core==0.1.50
+langchain-community==0.0.38
+langchain-ollama==0.1.1
+
+# Speech Recognition
+vosk==0.3.45
+
+# Text-to-Speech
+pyttsx3==2.90
+
+# Audio Input
+sounddevice==0.4.6
+
+# Data Processing
+numpy==1.24.3
+scipy==1.11.4
+
+# Utilities
+requests==2.31.0
