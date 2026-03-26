@@ -1,0 +1,128 @@
+### Model files (large, should not be tracked)
+model/
+model-spk/
+*.mdl
+*.fst
+*.int
+*.conf
+*.stats
+*.csl
+*.mat
+*.dubm
+*.ie
+*.carpa
+*.vec
+
+### Exceptions: Track these files
+!requirements.txt
+!README.md
+!WAKEWORD_SETUP.md
+
+### Blender files
+*.blend
+*.blend1
+*.blend2
+
+### Visual Studio & IDE Cache
+.vs/
+.vscode/
+.idea/
+*.slnx
+*.sqlite
+Browse.VC.db*
+*.db
+*.VC.db*
+ProjectSettings.json
+
+### Python
+__pycache__/
+*.py[cod]
+*$py.class
+*$py.pyo
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+### Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pyvenv.cfg
+Include/
+Lib/
+Scripts/
+
+### IDE & Editor
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+### OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### Audio files
+*.wav
+*.mp3
+*.flac
+*.aac
+boss_voice.npy
+
+### Logs
+*.log
+logs/
+
+### Local configurations
+.env
+.env.local
+config.local.py
+
+### Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+*.pyc
+*.pyo
+.coverage
+htmlcov/
+
+### Testing
+.tox/
+.coverage.*
+
+### Type checking
+.dmypy.json
+dmypy.json
+
+### Jupyter
+.ipynb_checkpoints/
+*.ipynb

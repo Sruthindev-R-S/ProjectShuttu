@@ -1,0 +1,47 @@
+# ============================================================================
+# Shuttu - AI Voice Assistant Requirements
+# ============================================================================
+
+# ----- Core Dependencies -----
+
+# LLM & AI Framework - LangChain orchestration with Ollama
+langchain>=0.1.14
+langchain-core>=0.1.42
+langchain-community>=0.1.14
+langchain-ollama>=0.1.1
+
+# Speech Recognition - Vosk for offline speech-to-text
+vosk>=0.3.45
+
+# Text-to-Speech - Natural language audio output
+pyttsx3>=2.90
+
+# Audio Processing & I/O
+sounddevice>=0.5.1
+numpy>=1.26.4
+scipy>=1.13.0
+
+# Web & HTTP - For tool integration and web browsing
+requests>=2.32.3
+httpx>=0.24.1
+
+# Data Serialization & Validation
+pydantic>=2.0.0
+pydantic-core>=2.10.0
+
+# Environment Configuration
+python-dotenv>=1.0.0
+
+# Utilities
+colorama>=0.4.6
+
+# ----- Development Dependencies (Optional) -----
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Code Quality & Formatting
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
