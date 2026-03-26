@@ -1,0 +1,44 @@
+# Model files (large, should not be tracked)
+model/
+*.mdl
+*.fst
+*.int
+*.txt
+*.conf
+*.stats
+*.csl
+*.mat
+*.dubm
+*.ie
+*.carpa
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Audio files
+*.wav
+*.mp3
+boss_voice.npy
+
+# Logs
+*.log
